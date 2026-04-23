@@ -4,7 +4,7 @@ import searchIcon from "../../../../assets/mynaui_search.svg";
 
 const Navbar = () => {
   return (
-    <div className="absolute top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
+    <div className="absolute top-10 left-0 w-full z-50 bg-black/30 backdrop-blur-md border-b border-white/10">
       <div className="flex justify-between items-center w-11/12 mx-auto sticky top-0 left-0 right-0">
         {/* <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ const Navbar = () => {
             <li>About</li>
           </ul>
         </div> */}
-        <div>
+        <div className="pt-4.25 pb-2.25">
           <Logo></Logo>
         </div>
         <div className="hidden lg:block">
@@ -55,7 +55,7 @@ const Navbar = () => {
             <img src={searchIcon} alt="search icon" />
             <p>Search</p>
           </div>
-          <div className=" py-5">
+          <div className="">
             <button className="bg-[#fab326] text-[14px] py-3 px-6 rounded-[40px]">
               Sign in
             </button>
