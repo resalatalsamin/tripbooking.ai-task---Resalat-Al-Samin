@@ -2,6 +2,8 @@ import React from "react";
 import leftArrow from "../../../assets/tours/Vector.svg";
 import rightArrow from "../../../assets/destinations/Vector.svg";
 import image1 from "../../../assets/tours/journey2.png.png";
+import image2 from "../../../assets/tours/journey3.png.png";
+import image3 from "../../../assets/tours/journey4.png.png";
 import location from "../../../assets/location.svg";
 import time from "../../../assets/duration.svg";
 import user from "../../../assets/user.svg";
@@ -28,7 +30,7 @@ const FeaturedTours = () => {
           />
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 pb-10.25">
         {/* Tour Card 1 */}
         <div className="border-2 border-[#E4E6E8] rounded-4xl h-fit">
           <div>
@@ -95,7 +97,7 @@ const FeaturedTours = () => {
           <div>
             <img
               className="rounded-4xl relative"
-              src={image1}
+              src={image2}
               alt="California Sunset Image"
             />
             <div className="absolute pt-5.5 pl-6.25 lg:-mt-86 -mt-75">
@@ -109,7 +111,7 @@ const FeaturedTours = () => {
             <div className="p-8">
               <div>
                 <h3 className="font-extrabold text-2xl">
-                  California Sunset/Twilight Boat Cruise
+                  NYC: Food Tastings and Culture Tour
                 </h3>
               </div>
 
@@ -137,7 +139,7 @@ const FeaturedTours = () => {
                 <div>
                   <p className="font-medium text-[#737373]">
                     <span className="font-extrabold text-2xl text-[#000000]">
-                      $48.25
+                      $17.32
                     </span>{" "}
                     / person
                   </p>
@@ -156,7 +158,7 @@ const FeaturedTours = () => {
           <div>
             <img
               className="rounded-4xl relative"
-              src={image1}
+              src={image3}
               alt="California Sunset Image"
             />
             <div className="absolute pt-5.5 pl-6.25 lg:-mt-86 -mt-75">
@@ -170,7 +172,7 @@ const FeaturedTours = () => {
             <div className="p-8">
               <div>
                 <h3 className="font-extrabold text-2xl">
-                  California Sunset/Twilight Boat Cruise
+                  Grand Canyon Horseshoe Bend 2 days
                 </h3>
               </div>
 
@@ -198,7 +200,7 @@ const FeaturedTours = () => {
                 <div>
                   <p className="font-medium text-[#737373]">
                     <span className="font-extrabold text-2xl text-[#000000]">
-                      $48.25
+                      $15.63
                     </span>{" "}
                     / person
                   </p>

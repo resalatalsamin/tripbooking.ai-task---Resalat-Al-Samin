@@ -20,7 +20,7 @@ const TrustedBy = () => {
             </p>
           </div>
           {/* Cards */}
-          <div className="grid lg:grid-cols-7 grid-cols-4 md:grid-cols-5 gap-6">
+          <div className="grid lg:grid-cols-7 grid-cols-3 md:grid-cols-5 gap-6">
             <div className=" py-[22.19px] px-[9.69px] bg-white rounded-[10px] border-2 border-[#E4E6E8] w-25 h-17.5 flex items-center justify-center">
               <img className="" src={casa} alt="" />
             </div>

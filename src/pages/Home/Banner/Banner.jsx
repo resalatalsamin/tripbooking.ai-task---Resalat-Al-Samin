@@ -25,7 +25,7 @@ const Banner = () => {
           <h1>Your Gateway to Extraordinary Adventures</h1>
         </div>
         <div>
-          <p className="font-primary text-white lg:text-2xl md:text-2xl text-xl font-medium lg:w-[767.09px] mx-auto">
+          <p className="font-primary text-white lg:text-2xl md:text-2xl text-xl font-medium lg:w-[767.09px] mx-auto ">
             Pack your bags and let Travila redefine your travel experience.
             Where every journey is a story waiting to be told
           </p>
